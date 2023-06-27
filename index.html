@@ -2,26 +2,55 @@
 <html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Site de Nina Carducci - Photographie</title>
 	<meta name="description" content="Nina Carducci Photographie | Shooting, albums et retouches">
+	<!-- Open Graph meta (Facebook) -->
 	<meta property="og:title" content="Site de Nina Carducci - Photographie">
 	<meta property="og:description" content="Nina Carducci Photographie | Shooting, albums et retouches">
 	<meta property="og:image" content="./assets/images/nina-1120x1117.webp">
-	<meta property="og:url" content="http://127.0.0.1:5500/index.html">
+	<meta property="og:url" content="https://sebrip33.github.io/Projet-5-Nina-Carducci/">
 	<meta property="og:type" content="website">
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="Nina Carducci - Photographie" />
+	<meta name="twitter:creator" content="Nina Carducci" />
+	<meta name="twitter:title" content="Nina Carducci Photographie | Shooting, albums et retouches" />
+	<meta name="twitter:description" content="Shooting, albums photos et retouches" />
+	<meta name="twitter:image" content="./assets/images/nina-1120x1117.webp"/>
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
-	<title>Site de Nina Carducci - Photographie</title>
 	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
+	<script type="application/ld+json"> {
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"url": "https://sebrip33.github.io/Projet-5-Nina-Carducci/",
+		"name": "Nina Carducci - Photographie",
+		"description": "Nina Carducci Photographie | Shooting, albums et retouches",
+		"image": {
+			"@type": "ImageObject",
+			"url": "./assets/images/nina-1120x1117.webp"
+  		},
+		"address": {
+			"@type": "PostalAddress",
+			"StreetAddress": "68 avenue Alsace-Lorraine",
+			"adressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"adressCountry": "FR"
+		},
+		"telephone": "05 56 67 78 89",
+		"openingHours": "Mo-Fr 10:00-19:00"
+	}
+	</script>
 </head>
 <body>
-<header class="top-header">
+<header itemscope itemtype="https://schema.org/WPHeader" class="top-header">
 	<h1 class="name">Nina Carducci</h1>
 	<nav class="nav">   
 		<ul>
@@ -34,7 +63,7 @@
 		</ul>
 	</nav>
 </header>
-<main>
+<main itemscope itemtype="https://schema.org/WebPage">
 	<div id="header">
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
@@ -224,7 +253,7 @@
 		</figure>
 	</div>
 </main>
-<footer id="contact">
+<footer itemscope itemtype="https://schema.org/WPFooter" id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h2>Une question ? Une demande de devis ?</h2>
