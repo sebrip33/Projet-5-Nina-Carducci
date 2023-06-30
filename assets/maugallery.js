@@ -153,6 +153,7 @@
           index = i ;
         }
       });
+
       next =
         imagesCollection[index - 1] ||
         imagesCollection[imagesCollection.length - 1];
