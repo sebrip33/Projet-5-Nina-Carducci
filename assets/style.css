@@ -98,7 +98,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000000;
 	background-color: #BEB45A;
 	border-radius: 0;
 }
@@ -107,7 +107,7 @@ body {
 	cursor: pointer;
 }
 .nav-link:hover {
-	color:#fff;
+	color:#000000;
 	background-color: #beb45a;
 	border-radius: 0;
 }
