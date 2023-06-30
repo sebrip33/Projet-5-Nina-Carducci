@@ -18,12 +18,12 @@
 	<meta name="twitter:title" content="Nina Carducci Photographie | Shooting, albums et retouches" />
 	<meta name="twitter:description" content="Shooting, albums photos et retouches" />
 	<meta name="twitter:image" content="./assets/images/nina-1120x1117.webp"/>
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
@@ -79,7 +79,10 @@
 								./assets/images/slider/ryoji-iwata-1580x731.webp 1580w,
 								./assets/images/slider/ryoji-iwata-1140x527.webp 1140w,
 								./assets/images/slider/ryoji-iwata-700x324.webp 700w,
-								./assets/images/slider/ryoji-iwata-300x139.webp 300w"		
+								./assets/images/slider/ryoji-iwata-300x139.webp 300w"	
+						width="1920"
+						height="888"	
+						style="width: 100%; height: auto;"
 						sizes="(max-width: 1920px) 100vw, 1920px"
 						class="d-block w-100" 
 						alt="Homme traversant un passage piéton">
@@ -117,11 +120,13 @@
 	</div>
 	<div id="about">
 		<div class="picture left">
-			<img src="./assets/images/nina-1120x1117.webp" width="100%" height="auto"
+			<img src="./assets/images/nina-1120x1117.webp" 
 				srcset="./assets/images/nina-1120x1117.webp 1120w,
 						./assets/images/nina-890x888.webp 890w,
 						./assets/images/nina-490x489.webp 490w,
 						./assets/images/nina-256x255.webp 256w"
+				width="1120" height="1117"
+				style="width: 100%; height: auto;"
 				sizes="(min-width: 2020px) 560px, (min-width: 1200px) calc(30vw - 40px), (min-width: 660px) calc(46.15vw - 75px), calc(80vw - 51px)"
 				alt="Portrait de Nina Carducci">
 		</div>
@@ -260,9 +265,11 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera-838x836.webp" width="100%" height="auto"
+			<img src="./assets/images/camera-838x836.webp"
 			srcset="./assets/images/camera-838x836.webp 838w,
 					./assets/images/camera-419x418.webp 419w"
+			width="838" height="836"
+			style="width: 100%; height: auto;"
 			sizes="(min-width: 1600px) 419px, (min-width: 1200px) calc(28.16vw - 26px), (min-width: 1020px) calc(43.75vw - 68px), (min-width: 980px) calc(200vw - 1612px), (min-width: 680px) calc(42.86vw - 63px), (min-width: 640px) calc(-975vw + 6653px), calc(75.94vw - 58px)"
 			alt="Un appareil photo">
 		</div>
